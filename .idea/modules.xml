@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HyperBank/HyperBank.iml" filepath="$PROJECT_DIR$/HyperBank/HyperBank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HyperBankNovo/HyperBankNovo.iml" filepath="$PROJECT_DIR$/HyperBankNovo/HyperBankNovo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PolimofirsmoJavaAlura.iml" filepath="$PROJECT_DIR$/.idea/PolimofirsmoJavaAlura.iml" />
     </modules>
   </component>
