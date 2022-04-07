@@ -5,15 +5,10 @@ public class Controlador {
         g1.setCpf("123123123-12");
         g1.setSalario(35967.68);
 
-        Funcionario f = new Funcionario();
-        f.setNome("Gusmão");
-        f.setSalario(20000);
-
         Secretario s = new Secretario();
         s.setSalario(1000);
         ControleBonificacao controle = new ControleBonificacao();
         controle.registra(g1);
-        controle.registra(f);
         controle.registra(s);
 
         System.out.println(controle.getSoma());
