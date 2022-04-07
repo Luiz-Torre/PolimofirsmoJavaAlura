@@ -1,5 +1,5 @@
-public class Conta {
-    private double saldo;
+public abstract  class Conta {
+    protected double saldo;
     private Integer agencia;
     private String numero; //A conta é apenas com número nesse escopo
     private Cliente titular;
@@ -13,9 +13,7 @@ public class Conta {
         Conta.totalContasCriadas++;
     }
 
-    void deposita(double valor){
-        this.saldo += valor;
-    }
+    public abstract void deposita(double valor);
     boolean saca(double valor){
         if(this.saldo>= valor){
             this.saldo -= valor;
